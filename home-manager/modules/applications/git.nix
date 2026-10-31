@@ -4,7 +4,11 @@
     settings = {
       user.name = "Kanstantsin Mikhailau";
       user.email = "mikhailau.kanstantsin@gmail.com";
-      credential.helper = "cache --timeout=3600";
+      url = {
+        "git@github.com:" = {
+          insteadOf = "https://github.com/";
+        };
+      };
     };
   };
 }

@@ -11,6 +11,7 @@
 			./modules/applications/craftapps.nix
 			./modules/applications/obs-studio.nix
 			./modules/applications/git.nix
+			./modules/applications/ssh.nix
 		];
 
 	news.display = "silent";
